@@ -65,7 +65,7 @@ export const SideBar = () => {
             </span>
           </a>
           <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-          <ul className="space-y-2 font-medium overflow-y-scroll max-h-[21vw]">
+          <ul className="space-y-2 font-medium overflow-y-scroll max-h-[35%]">
             <li>
               <a
                 href="#"
@@ -224,10 +224,7 @@ export const SideBar = () => {
           </div>
         </div>
       </aside>
-
-      <div className="p-4 sm:ml-64">
-        <ChatPage />
-      </div>
+      <ChatPage />
     </>
   );
 };
