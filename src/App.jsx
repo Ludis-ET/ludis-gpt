@@ -1,4 +1,4 @@
-import { SideBar } from "./components/left/SideBar";
+import { SideBar } from "./components/SideBar";
 
 function App() {
   return (
