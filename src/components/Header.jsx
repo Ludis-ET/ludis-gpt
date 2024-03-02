@@ -11,7 +11,7 @@ export const Header = () => {
       : document.documentElement.classList.remove("dark");
   }, [dark]);
   return (
-    <nav className="fixed top-0 w-[80%] dark:bg-gray-900 shadow-md z-50 pl-0 py-2 ">
+    <nav className="fixed top-0 w-full  md:w-[80%] dark:bg-gray-900 shadow-md z-50 pl-0 py-2 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <button
