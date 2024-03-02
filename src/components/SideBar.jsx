@@ -60,13 +60,16 @@ export const SideBar = () => {
               <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708" />
             </svg>
           </button>
-          <a href="https://flowbite.com/" class="flex items-center ps-2.5 mb-5">
-            <img src={logo} class="h-6 me-3 sm:h-7" alt="Flowbite Logo" />
-            <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+          <a
+            href="https://flowbite.com/"
+            className="flex items-center ps-2.5 mb-5"
+          >
+            <img src={logo} className="h-6 me-3 sm:h-7" alt="Flowbite Logo" />
+            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               LudisGPT
             </span>
           </a>
-          <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
           <ul className="space-y-2 font-medium overflow-y-scroll max-h-[45%] m:max-h-[35%]">
             <li>
               <a
@@ -179,7 +182,7 @@ export const SideBar = () => {
               </a>
             </li>
           </ul>
-          <hr class="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
+          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
           <div
             id="dropdown-cta"
             className="p-4 mt-6 rounded-lg bg-blue-50 dark:bg-blue-900"
