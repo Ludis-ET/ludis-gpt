@@ -3,7 +3,9 @@ import logo from "../assets/logo.png";
 import { ChatPage } from "./ChatPage";
 
 export const SideBar = () => {
-  const [side, setSide] = useState(true);
+  const [side, setSide] = useState(
+    JSON.parse(localStorage.getItem("sidebar")) || true
+  );
   return (
     <>
       <button
@@ -224,7 +226,7 @@ export const SideBar = () => {
           </div>
         </div>
       </aside>
-      <ChatPage />
+      <ChatPage ss={setSide} s={side} />
     </>
   );
 };
