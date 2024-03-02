@@ -1,11 +1,11 @@
 export const Header = () => {
   return (
-    <nav className="">
+    <nav className="fixed top-0 w-[80%] dark:bg-gray-900 shadow-md z-50 pl-0 py-2 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-1">
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
           <button
             type="button"
-            className="bi bi-brightness-high text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
+            className="bi bi-brightness-high  text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700"
           ></button>
           <button
             type="button"
