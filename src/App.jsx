@@ -1,12 +1,11 @@
-
+import { SideBar } from "./components/left/SideBar";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+      <SideBar />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
