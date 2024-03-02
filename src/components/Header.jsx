@@ -33,7 +33,7 @@ export const Header = ({ ss, s }) => {
           ></button>
         </div>
         <form className="w-[80%]">
-          <label htmlFor"chat" className="sr-only">
+          <label htmlFor="chat" className="sr-only">
             Your message
           </label>
           <div className="flex items-center px-3 py-2 rounded-lg bg-gray-50 dark:bg-gray-700">
